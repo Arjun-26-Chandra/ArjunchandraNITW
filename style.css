@@ -1,0 +1,170 @@
+body {
+  text-align: center;
+  margin: 0;
+}
+
+.title {
+  background-color: #CDF0EA;
+  position: relative;
+  text-align: center;
+  height: 550px;
+  padding-top: 150px;
+}
+
+h1 {
+  font-family: segoe print;
+  font-size: 50px;
+  margin: 0;
+  color: #66BFBF;
+  line-height: 2;
+}
+
+h2 {
+  color: #66BFBF;
+  font-weight: normal;
+  font-size: 50px;
+}
+
+.sub {
+  font-size: 30px;
+  position: relative;
+  bottom: 25px;
+}
+
+h3 {
+  color: #11999E;
+}
+
+p {
+  color: #40514E;
+  font-weight: bold;
+  font-size: 18px;
+  font-family: serif;
+}
+
+a {
+  color: #11999E;
+}
+
+.image1 {
+  position: absolute;
+  top: 100px;
+  right: 350px;
+}
+
+.image2 {
+  position: absolute;
+  left: 350px;
+  top: 250px
+}
+
+.image3 {
+  position: absolute;
+  bottom: 0;
+  right: 460px;
+  height: 380px;
+}
+
+.image4 {
+  position: absolute;
+  top: 150px;
+  left: 300px;
+  height: 80px;
+}
+
+.image5 {
+  position: absolute;
+  bottom: 0;
+  right: 50px;
+  width: auto;
+  height: 450px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 0 auto 130px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.logical {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.chillies {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.middle-container {
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+.bottom-container {
+  margin-top: 30px;
+  background-color: #66BFBF;
+  padding: 50px 20px 50px 20px;
+}
+
+.links {
+  word-spacing: 30px;
+  color: #11999E;
+}
+
+a:link {
+  text-decoration: none;
+}
+a:hover{
+  color: black;
+  font-weight: bold;
+  transition: 0.4s;
+  transform-style: flat;
+}
+.profile {
+  width: 40%;
+  margin: 0 auto 50px auto;
+}
+
+.profile-pic {
+  width: 40%;
+}
+
+.btn {
+  background: #11cdd4;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  transition-property: font-size,color,background-image,background;
+  transition-duration: 0.8s;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: linear-gradient(to left, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to top, white, #2bc4ad);
+  text-decoration: none;
+  font-size: 24px;
+  color:black ;
+}
+
+hr {
+  border-style: dotted none none;
+  width: 5%;
+  border-width: thick;
+  color: grey;
+}
+
+.contact-me {
+  line-height: 50px;
+}
+
+.copyright {
+  color: #EAF6F6;
+}
